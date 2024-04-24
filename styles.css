@@ -25,6 +25,37 @@ a{
     color: white;
 }
 
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight:400;
+    color:#727171
+}
+
+.title{
+    color:#ff7613;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.year-range{
+    font-size: 1.4rem;
+    color:#727171;
+    font-weight: 300;
+}
+.item-title{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem;
+}
+.college-name{
+    font-size: 1.4rem;
+    color:#727171;
+    font-weight: 400;
+}
+
+/* Layouts styling */
 .container{
     max-width: 100px;
     width: 90%;
@@ -32,4 +63,97 @@ a{
     display: grid;
     padding: 5rem;
     background: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 7rem;
+    }
 }
+
+.profile{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+
+/* profile*/
+.profile-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.profile-img{
+    max-width: 250px;
+}
+
+.first-name{
+    color:white;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+.last-name{
+    color:#ff7613;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+    text-transform: uppercase;
+    display: block;
+}
+
+.job-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.download-button{
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.download-button:hover{
+    color:#ff7613;
+}
+@media only screen and (max-width: 768px){
+    .profile-container{
+        flex-direction: column;
+    }
+}
+
+/*Styling for my Skills Section*/
+.skill-list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+/*Styling for my CourseWork Section*/
+.course-list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+/*Styling for my Education Section*/
+.edu-item{
+    margin-top: 2rem;
+}
+    
+/*Styling for my Project Section*/
+.project-item{
+    margin-top: 2rem;
+}
+
+/*Styling for my Experience Section*/
+.experience-list{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
