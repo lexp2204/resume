@@ -66,14 +66,7 @@ a{
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
-@media only screen and (max-width: 768px){
-    .container{
-        width: 100%;
-        grid-template-columns: 1fr;
-        padding: 3rem;
-        gap: 7rem;
-    }
-}
+
 
 .profile{
     grid-column: 1/-1;
@@ -142,11 +135,7 @@ a{
 .download-button:hover{
     color:#ff7613;
 }
-@media only screen and (max-width: 768px){
-    .profile-container{
-        flex-direction: column;
-    }
-}
+
 
 /*Styling for my Skills Section*/
 .skill-list{
