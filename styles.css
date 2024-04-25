@@ -33,7 +33,7 @@ a{
 }
 
 .title{
-    color:#ff7613;
+    color: #00E0C7;
     font-weight: 700;
     font-size: 2rem;
     text-transform: uppercase;
@@ -113,7 +113,7 @@ a{
     margin-bottom: -0.8rem;
 }
 .last-name{
-    color:#ff7613;
+    color:#00E0C7;
     font-weight: 700;
     font-size: clamp(2.5rem, 15vw, 7rem);
     text-transform: uppercase;
@@ -133,7 +133,7 @@ a{
     margin-top: 1rem;
 }
 .download-button:hover{
-    color:#ff7613;
+    color:#00E0C7;
 }
 
 
