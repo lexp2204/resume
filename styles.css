@@ -57,6 +57,7 @@ a{
 
 /* Layouts styling */
 .container{
+    max-width:fit-content;
     width: 100%;
     margin: 0;
     display: grid;
