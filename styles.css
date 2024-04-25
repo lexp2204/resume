@@ -59,10 +59,9 @@ a{
 .container{
     max-width: 100px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     padding: 5rem;
-    background: #070707;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
